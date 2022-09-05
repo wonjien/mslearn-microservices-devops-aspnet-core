@@ -32,7 +32,7 @@ jobs:
     - name: Deploy
       run: >
         helm upgrade 
-        --install eshoplearn-coupon "./helm-simple/coupon"
+        --install 1.4.0 eshoplearn-coupon
         --namespace=default 
         --set registry=${{ secrets.REGISTRY_LOGIN_SERVER }} 
         --set imagePullPolicy=Always 
