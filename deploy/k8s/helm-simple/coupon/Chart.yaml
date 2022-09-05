@@ -1,4 +1,4 @@
-apiVersion: v2
+apiVersion: v1.1.0
 name: coupon
 description: A Helm chart for Kubernetes
 
